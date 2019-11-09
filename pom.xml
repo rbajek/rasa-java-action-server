@@ -5,7 +5,7 @@
     
     <groupId>io.github.rbajek</groupId>
     <artifactId>rasa-java-action-server</artifactId>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
 	
     <name>rasa-java-action-server</name>
 	<description>Action Server for the Rasa</description>
