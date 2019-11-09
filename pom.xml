@@ -37,7 +37,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
 
-		<rasa-java-sdk.version>1.0.1-SNAPSHOT</rasa-java-sdk.version>
+		<rasa-java-sdk.version>1.0.1</rasa-java-sdk.version>
 		<slf4j.version>1.7.26</slf4j.version>
 		<log4j.version>2.12.0</log4j.version>
 		<lombok.version>1.18.4</lombok.version>
