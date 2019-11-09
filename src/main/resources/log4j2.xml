@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="LogToConsole">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %c{1.} - %msg%n"/>
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<!-- Action server -->
+		<Logger name="io.github.rbajek.rasa.action.server" level="${env:LOG_LEVEL:-info}" additivity="false">
+			<AppenderRef ref="LogToConsole"/>
+		</Logger>
+		<!-- Jetty HTTP Server -->
+		<Logger name="org.eclipse.jetty" level="error" additivity="false">
+			<AppenderRef ref="LogToConsole"/>
+		</Logger>
+		<!-- Rasa Java SDK -->
+		<Logger name="io.github.rbajek.rasa.sdk" level="${env:LOG_LEVEL:-info}" additivity="false">
+			<AppenderRef ref="LogToConsole"/>
+		</Logger>
+		<!-- Root -->
+		<Root level="${env:LOG_LEVEL:-error}">
+			<AppenderRef ref="LogToConsole"/>
+		</Root>
+	</Loggers>
+</Configuration>
