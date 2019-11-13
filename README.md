@@ -61,7 +61,7 @@ docker build -t rasa-action-server:1.0.0
 and tun it:
 
 ```
-docker run -p 8080:8080 --name my-rasa-action-server java-action-server:2.0
+docker run -p 5055:8080 --name rasa-action-server rasa-action-server:1.0.0
 ```
 
 #### 3. Set the URL in Rasa Core
