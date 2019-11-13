@@ -33,8 +33,8 @@ To add your custom action, you can create a Java class which implement/extend an
 
 
 **Attention:** action server contains two examples of custom actions:
-- ``io.github.rbajek.rasa.action.server.action.custom.joke.ActionJoke`` - as the general action (based on [original example](https://rasa.com/docs/rasa/user-guide/running-rasa-with-docker/#creating-a-custom-action))
-- ``io.github.rbajek.rasa.action.server.action.custom.form.restaurant.RestaurantFormAction`` - as the form action, which implement functionality of [Restaurant Form] (https://blog.rasa.com/building-contextual-assistants-with-rasa-formaction/)
+- [ActionJoke.java](https://github.com/rbajek/rasa-java-action-server/blob/master/src/main/java/io/github/rbajek/rasa/action/server/action/custom/joke/ActionJoke.java) - as the general action (based on [original example](https://rasa.com/docs/rasa/user-guide/running-rasa-with-docker/#creating-a-custom-action))
+- [RestaurantFormAction.java](https://github.com/rbajek/rasa-java-action-server/blob/master/src/main/java/io/github/rbajek/rasa/action/server/action/custom/form/restaurant/RestaurantFormAction.java) - as the form action, which implement functionality of [Restaurant Form] (https://blog.rasa.com/building-contextual-assistants-with-rasa-formaction/)
 
 #### 2. Starting the actio server
 
