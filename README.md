@@ -29,7 +29,7 @@ You can create two types of custom actions:
 
 To add your custom action, you can create a Java class which implement/extend an appropriate interface/class. Recommended package for your custom actions is ``io.github.rbajek.rasa.action.server.action.custom``. Afterwards, you have to register your custom action in ``io.github.rbajek.rasa.sdk.ActionExecutor``. 
 
-**Tip:** If you want your custom action to be automatically registered, you action has to be as Spring component.
+**Tip:** If you want your custom action to be automatically registered, your action has to be as Spring component.
 
 
 **Attention:** action server contains two examples of custom actions:
